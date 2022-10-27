@@ -1,0 +1,98 @@
+@media only screen and (max-width: 800px) {
+    body {
+        width: 95%;
+    }
+    .category>button {
+        font-size: 2.4rem;
+    }
+    .category>div {
+        font-size: 1.2rem;
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 801px) {
+    body {
+        width: 80%;
+    }
+    .category>button {
+        font-size: 3rem;
+    }
+    .category>div {
+        font-size: 1.5rem;
+        margin-left: 10vw;
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    body {
+        width: 65%;
+    }
+    .category>button {
+        font-size: 4.2rem;
+    }
+    .category>div {
+        font-size: 2.1rem;
+        margin-left: 17.5vw;
+    }
+}
+
+body {
+    margin: auto;
+    font-size: 8px;
+}
+
+.main-container {
+    display: inline-block;
+    width: 100%;
+    margin-top: 4.4rem;
+}
+
+.category {
+    display: block;
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.category>button {
+    margin: auto;
+}
+
+button {
+    font-size: inherit;
+    font-weight: 500;
+    display: inline;
+    background-color: white;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.category button:hover,
+.title button:hover {
+    cursor: pointer;
+}
+
+button {
+    border-width: 0px;
+}
+
+.sub-content {
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.sub-content img {
+    width: 100%;
+    height: auto;
+}
+
+#cat1 {}
+
+#cat2 {}
+
+#cat3 {}
+
+#cat4 {}

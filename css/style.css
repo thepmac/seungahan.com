@@ -40,6 +40,7 @@
 body {
     margin: auto;
     font-size: 8px;
+    text-rendering: geometricPrecision;
 }
 
 .main-container {
@@ -57,11 +58,11 @@ body {
 
 .category>button {
     margin: auto;
-    font-family: serif;
+    font-family: "Times New Roman", serif;
 }
 
 .category>div {
-    font-family: sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 button {
@@ -100,6 +101,17 @@ button {
 
 p {
     margin: 2rem 0rem 1rem 0rem;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 #cat1 {}

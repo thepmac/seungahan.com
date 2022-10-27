@@ -57,6 +57,11 @@ body {
 
 .category>button {
     margin: auto;
+    font-family: serif;
+}
+
+.category>div {
+    font-family: sans-serif;
 }
 
 button {
@@ -81,12 +86,20 @@ button {
 }
 
 .sub-content {
-    margin: 1rem 0rem 2rem 0rem;
+    margin: 1rem 0rem 6rem 0rem;
 }
 
 .sub-content img {
     width: 100%;
     height: auto;
+}
+
+.item {
+    margin-bottom: 5rem;
+}
+
+p {
+    margin: 2rem 0rem 1rem 0rem;
 }
 
 #cat1 {}

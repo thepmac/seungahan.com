@@ -2,7 +2,7 @@
     body {
         width: 95%;
     }
-    .category>button {
+    .category>h1 {
         font-size: 2.4rem;
     }
     .category>div {
@@ -15,7 +15,7 @@
     body {
         width: 80%;
     }
-    .category>button {
+    .category>h1 {
         font-size: 3rem;
     }
     .category>div {
@@ -28,7 +28,7 @@
     body {
         width: 65%;
     }
-    .category>button {
+    .category>h1 {
         font-size: 4.2rem;
     }
     .category>div {
@@ -56,7 +56,7 @@ body {
     width: 100%;
 }
 
-.category>button {
+.category>h1 {
     margin: auto;
     font-family: "Times New Roman", serif;
 }
@@ -65,24 +65,24 @@ body {
     font-family: "Arial", sans-serif;
 }
 
-button {
+h1 {
     font-size: inherit;
     font-weight: 500;
     display: inline;
     background-color: white;
 }
 
-button:hover {
+h1:hover {
     text-decoration: underline;
     color: blue;
 }
 
-.category button:hover,
-.title button:hover {
+.category h1:hover,
+.title h1:hover {
     cursor: pointer;
 }
 
-button {
+h1 {
     border-width: 0px;
 }
 

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "sligoilmicro";
+    src: local("sligoilmicro"), url("../assets/fonts/sligoil/Sligoil-Micro.otf") format("opentype"), url("../assets/fonts/sligoil/web/sligoil-micro.woff") format("woff"), url("../assets/fonts/sligoil/web/sligoil-micro.woff2") format("woff2");
+}
+
 @media only screen and (max-width: 800px) {
     body {
         width: 95%;
@@ -58,11 +63,11 @@ body {
 
 .category>h1 {
     margin: auto;
-    font-family: "Times New Roman", serif;
+    font-family: "sligoilmicro", sans-serif;
 }
 
 .category>div {
-    font-family: "Arial", sans-serif;
+    font-family: "sligoilmicro", sans-serif;
 }
 
 h1 {

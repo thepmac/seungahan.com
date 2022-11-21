@@ -46,6 +46,8 @@ body {
     margin: auto;
     font-size: 8px;
     text-rendering: geometricPrecision;
+    background-color: var(--color-1);
+    color: var(--color-2);
 }
 
 .main-container {
@@ -89,6 +91,7 @@ h1:hover {
 
 h1 {
     border-width: 0px;
+    background-color: var(--color-1);
 }
 
 .sub-content {

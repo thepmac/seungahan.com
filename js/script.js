@@ -43,6 +43,15 @@ function toggle4() {
     }
 }
 
+function toggle5() {
+    var htmlShow = document.getElementById("content5");
+    if (htmlShow.style.display === "none") {
+        htmlShow.style.display = "block";
+    } else {
+        htmlShow.style.display = "none";
+    }
+}
+
 // Color Array Random Selector
 
 let root = document.documentElement;
